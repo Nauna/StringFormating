@@ -3,12 +3,15 @@ Reading in an arbitrary string in a specific format, extracting the data and run
 
 
 ## SPECIFICS OF PROGRAM ##
+
 	### Terms ###
 Net Assets Valuation (NAV) = value of total asset in portfolio.
 Percentage NAV = percentage weight of an asset based on a bench mark.
+
 	### Equations ###
 NAV(portfolio) = Sum(quantity(X1)*price(X1)):X1 is element(asset) of portfolio
 %NAV(X1-portfolio) = (quantity(X1)*price(X1)) * 100 / NAV(Portfolio)
+
 	### More Terms ###
 portfolio(overweight) = (%NAV(X1-portfolio)) > (%NAV(X1-benchmark)
 portfolio(underoverweight) = (%NAV(X1-portfolio)) < (%NAV(X1-benchmark)
